@@ -130,18 +130,26 @@ nav ul li a:hover {
   background-color:rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   text-align: center;
   color: white;
 
+
   & .bg-video-content h1{
     margin-bottom: 15px;
-    font-size: 43px;
+    font-size: 70px;
+  font-family: 'new-spirit', 'helvetica-bold', serif;
+  font-weight: bolder;
+
 
   }
 
   & .bg-video-content p{
+     
+    font-size: 23px;
+  
 
+    
 
   }
 
