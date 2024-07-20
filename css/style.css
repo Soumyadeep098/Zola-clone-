@@ -9,7 +9,7 @@
 
 #main-Header {
   display: flex;
-  width: 100%;
+  width: 101%;
   background-color: whitesmoke;
   justify-content:space-between;
   padding: 12px 5px;
@@ -119,4 +119,15 @@ nav ul li a:hover {
 
 .grey:hover{
     opacity: 0.5;
+}
+
+
+/* hero-section */
+
+
+video{
+    width: 99.9vw;
+    position: absolute;
+    top: -20px;
+    
 }
