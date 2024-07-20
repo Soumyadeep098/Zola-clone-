@@ -1,68 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- logos  -->
-    <link rel="apple-touch-icon" sizes="180x180" href="Images/Favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="Images/Favicon/android-chrome-192x192.png" sizes="192x192">
-    <link rel="icon" type="image/png" href="Images/Favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="Images/Favicon/favicon-16x16.png" sizes="16x16">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Images/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Images/Favicon/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Images/Favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Images/Favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
 
     <title>Zola</title>
 
     <!-- css  -->
 
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reponsive.css">
-
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reponsive.css" />
 
     <!-- fontawesome  -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <!-- header section  -->
 
     <header id="main-Header">
+      <!-- Menu  -->
 
-        <!-- Menu  -->
+      <div class="nav-Header-Right hidden">
+        <nav>
+          <ul>
+            <li><a href="/">Plan your wedding</a></li>
+            <i class="fa-solid fa-angle-down"></i>
+            <li><a href="/">Expert advice</a></li>
+            <i class="fa-solid fa-angle-down"></i>
+            <li><a href="/">Find a couple</a></li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="nav-Header-Right hidden">
-          
-            <nav>
-                <ul>
-                    <li><a href="/">Plan your wedding</a></li>
-                        <i class="fa-solid fa-angle-down"></i>
-                    <li><a href="/">Expert advice</a></li>
-                        <i class="fa-solid fa-angle-down"></i>
-                    <li><a href="/">Find a couple</a></li>
-                </ul>
-            </nav>
-
-        </div>
-
-
-        <!-- logo  -->
-        <div class="nav-Header-Middle">
-
-      <img src="Images/Logo/Main-logo.png" alt="">
-        </div>
-        <!-- get stated and login btns  -->
-        <div class="nav-Header-Left">
-            <div class="icons">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+      <!-- logo  -->
+      <div class="nav-Header-Middle">
+        <img src="Images/Logo/Main-logo.png" alt="" />
+      </div>
+      <!-- get stated and login btns  -->
+      <div class="nav-Header-Left">
+        <div class="icons">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
         </div>
 
         <div class="buttons-Header">
-            <button class="btn-Header hidden">Log in</button>
-            <button class="btn-Header grey hidden">Get started</button>
+          <button class="btn-Header hidden">Log in</button>
+          <button class="btn-Header grey hidden">Get started</button>
         </div>
-
-        </div>
+      </div>
     </header>
 
     <!-- header ends  -->
@@ -70,18 +87,30 @@
     <!-- hero-section-starts  -->
 
     <section class="top-Hero-Section">
-        <div class="bg-video">
-            <video autoplay loop muted>
-                <source src="Assets/Videos/bg.webm" type="video/webm">
-                <source src="Assets/Videos/bg.mp4" type="video/mp4">
-            </video>
+  
+      <div class="bg-video-container">
+
+        <video autoplay muted loop plays-inline class="video-clip">
+          <source src="Assets/Videos/bg.mp4" type="video/mp4">
+          <source src="Assets/Videos/bg.webm" type="video/webm">
+        </video>
+
+        <div class="bg-video-content">
+          <h1>Wedding planning starts here</h1>
+          <p>
+            From venues and save the dates to a free wedding website, a registry
+            and even your cake — Zola is here for all the days along the wayz
+          </p>
         </div>
-        <div class="bg-videp-text"></div>
-        <div class="ng-video-btn"></div>
+       
+
+      </div>
+        
+      
+       
+      
+  
+    </div>
     </section>
-
-
-
-
-</body>
+  </body>
 </html>

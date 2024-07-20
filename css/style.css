@@ -9,7 +9,7 @@
 
 #main-Header {
   display: flex;
-  width: 101%;
+  width: 100%;
   background-color: whitesmoke;
   justify-content:space-between;
   padding: 12px 5px;
@@ -124,10 +124,60 @@ nav ul li a:hover {
 
 /* hero-section */
 
+.bg-video-container{
+  width: 100%;
+  height: 88vh;
+  background-color:rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
 
-video{
-    width: 99.9vw;
-    position: absolute;
-    top: -20px;
-    
+  & .bg-video-content h1{
+    margin-bottom: 15px;
+    font-size: 43px;
+
+  }
+
+  & .bg-video-content p{
+    padding: 0 600px;
+
+  }
+
 }
+
+.video-clip{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+
+  .video-clip{
+    width:100%;
+    height: autp;
+  }
+  
+}
+
+@media (max-aspect-ratio:16/9) {
+
+  .video-clip{
+    width:auto;
+    height: 100%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
