@@ -1,0 +1,23 @@
+@media screen and (min-width: 250px) and (max-width : 990px){
+    
+    .hidden{
+        display: none;
+    }
+
+    #main-Header{
+        width: 100%;
+    }
+
+    .fa-magnifying-glass{
+        display: none !important;
+    }
+
+    .nav-Header-Middle{
+        margin-left: 20px;
+    }
+
+    .fa-cart-shopping{
+        margin-left: 90px;
+    }
+}
+    
