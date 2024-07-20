@@ -20,6 +20,10 @@
         left: 20px;
     }
 
+   .bg-video-container p {
+     display: inline;
+   }
+
 
   
 }

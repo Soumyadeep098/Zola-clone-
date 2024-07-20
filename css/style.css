@@ -180,7 +180,31 @@ nav ul li a:hover {
   
 } 
 
+.video-content-btn{
+  
+  margin-top: 40px;
+}
 
+.btn-video{
+  border: 2px solid black;
+  padding: 20px 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  
+}
+
+.white{
+  background-color: white;
+  color: black;
+  padding: 20px 50px;
+}
+
+.white:hover , .btn-video:hover{
+  background-color: #ededed;
+  color:black;
+
+}
 
 
 
