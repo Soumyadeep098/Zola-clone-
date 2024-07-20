@@ -141,13 +141,13 @@ nav ul li a:hover {
   }
 
   & .bg-video-content p{
-    padding: 0 600px;
+
 
   }
 
 }
 
-.video-clip{
+ .video-clip{
   position: absolute;
   right: 0;
   bottom: 0;
@@ -170,7 +170,7 @@ nav ul li a:hover {
     height: 100%;
   }
   
-}
+} 
 
 
 
